@@ -208,6 +208,14 @@ function ChangeGray0() {
    element.classList.toggle("grayScaleStyle", false);
    var element = document.getElementById("emoji--angry");
    element.classList.toggle("grayScaleStyle", false);
+
+
+   fetch('something.txt')
+  .then(response => response.text())
+  .then(data => {
+    // Do something with your data
+    console.log(data);
+  });
 }
 
 function ChangeGray1() {
