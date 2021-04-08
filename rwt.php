@@ -1,1 +1,1 @@
- $file_content = file_get_contents('details.txt');
+ $file_content = file_get_contents('something.txt');
