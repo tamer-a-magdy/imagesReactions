@@ -1,0 +1,1 @@
+ $file_content = file_get_contents('details.txt');
