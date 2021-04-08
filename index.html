@@ -335,7 +335,16 @@ function ChangeGray7() {
 }
 </script>
 
+<?php
+  $file_content = file_get_contents('something.txt');
+ ?>
 
+<?php
+$myfile = fopen("something.txt", "r") or die("Unable to open file!");
+echo fread($myfile,filesize("something.txt"));
+fclose($myfile);
+?>
+ 
 <!-- </main> -->
     <!-- <script type="text/javascript" src="runtime.8c26f1fab6959b00a997.js"></script><script type="text/javascript" src="polyfills.a2dbf0f26cef725bb456.js"></script><script type="text/javascript" src="main.ecbb5da552ec5929d907.js"></script> -->
 </body>
