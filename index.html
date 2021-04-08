@@ -210,12 +210,9 @@ function ChangeGray0() {
    element.classList.toggle("grayScaleStyle", false);
 
 
-   fetch('something.txt')
-  .then(response => response.text())
-  .then(data => {
-    // Do something with your data
-    console.log(data);
-  });
+var details = '<?php echo $file_content; ?>';
+console.log(details);
+
 }
 
 function ChangeGray1() {
