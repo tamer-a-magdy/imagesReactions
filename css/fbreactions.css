@@ -485,6 +485,16 @@ body {
 		 transform: scale(0.6);
 	}
 }
+@keyframes up-down {
+	 25%, 35% {
+		 transform: scale(0.85);
+		 top: 55px;
+	}
+	 55%, 100%, 0% {
+		 transform: scale(1);
+		 top: 60px;
+	}
+}
  @keyframes haha-face {
 	 10%, 30%, 50% {
 		 transform: translateY(25px);
